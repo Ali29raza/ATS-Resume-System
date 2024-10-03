@@ -49,6 +49,10 @@ The model is particularly useful for HR professionals managing large-scale resum
 - **Optimized for ATS**: Helps HR professionals refine resumes to better match job descriptions for improved performance in Applicant Tracking Systems (ATS).
 - **Automatic Contact Extraction**: Extracts critical contact details (name, phone number, email, LinkedIn) directly from the resume.
 
+## Future Directions
+
+This application can be enhanced to handle multiple resumes simultaneously. By analyzing multiple resumes at once, the system could rank and return the best-matching resumes based on job descriptions. This feature would allow HR professionals to easily identify top candidates, facilitating further analysis to find the best fit for the role. 
+
 ## License
 
 This project is licensed under the MIT License.
