@@ -1,7 +1,6 @@
-
 # ATS Resume Expert
 
-**ATS Resume Expert** is a web application designed to help job seekers by analyzing resumes and comparing them to job descriptions for technical roles such as Data Scientist, Machine Learning Engineer, Software Developer, and DevOps Engineer. This app uses Google Generative AI (Gemini) to provide resume analysis, match percentage calculations, and extraction of contact details.
+**ATS Resume Expert** is a web application designed to help HR professionals by analyzing resumes and comparing them to job descriptions for technical roles such as Data Scientist, Machine Learning Engineer, Software Developer, and DevOps Engineer. This app uses Google Generative AI (Gemini) to provide resume analysis, match percentage calculations, and extraction of contact details.
 
 ## Features
 
@@ -12,7 +11,7 @@
 ## How It Works
 
 1. **Input**: 
-   - Users provide a job description and upload a resume in PDF format.
+   - HR professionals provide a job description and upload a resume in PDF format.
    
 2. **AI-Powered Analysis**: 
    - The app uses Google Generative AI to process the resume and job description, performing three key functions:
@@ -21,7 +20,17 @@
      - Extracting contact details from the resume.
 
 3. **Output**: 
-   - The app displays AI-generated results, including resume analysis, match percentage, or extracted contact information, depending on the user’s selection.
+   - The app displays AI-generated results, including resume analysis, match percentage, or extracted contact information, depending on the selected action.
+
+## Model Details
+
+This application uses **Google's Gemini Model (gemini-1.5-flash)** to power the resume analysis and matching process. The **Generative AI Model** is configured using the provided API key, and it helps perform the following tasks:
+
+- **Content Generation**: Generates text responses based on the provided resume and job description.
+- **Comparative Analysis**: Compares job descriptions and resumes to identify key matching and missing elements.
+- **Contact Extraction**: Automatically identifies and extracts contact details such as the candidate’s name, email, phone number, and LinkedIn profile.
+
+The model is particularly useful for HR professionals managing large-scale resume screenings by automating time-consuming tasks such as assessing resume fit for specific technical roles.
 
 ## Application Flow
 
@@ -37,7 +46,7 @@
 ## Key Benefits
 
 - **Tailored for Technical Roles**: Focuses on roles like Data Scientist, Machine Learning Engineer, Software Developer, and DevOps Engineer.
-- **Optimized for ATS**: Helps refine resumes to better match job descriptions for improved performance in Applicant Tracking Systems (ATS).
+- **Optimized for ATS**: Helps HR professionals refine resumes to better match job descriptions for improved performance in Applicant Tracking Systems (ATS).
 - **Automatic Contact Extraction**: Extracts critical contact details (name, phone number, email, LinkedIn) directly from the resume.
 
 ## License
